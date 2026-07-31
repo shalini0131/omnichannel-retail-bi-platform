@@ -1,0 +1,4 @@
+{
+  "summary": "MySQL DDL schema script creating the 'retail_dw' database, dimension tables, fact tables, foreign key constraints, primary keys, auto-increment fields, and indexes.",
+  "updatedAt": "2026-07-29T14:33:41.940201600Z"
+}

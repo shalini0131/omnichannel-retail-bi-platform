@@ -1,0 +1,4 @@
+{
+  "summary": "Python script implementing the Holt-Winters demand forecasting model on weekly transaction volumes, containing data split, model fit, forecasting, validation, and chart generation.",
+  "updatedAt": "2026-07-29T14:26:01.724056700Z"
+}

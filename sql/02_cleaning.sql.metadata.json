@@ -1,0 +1,4 @@
+{
+  "summary": "Updated cleaning queries to use standard MySQL syntax, removing PostgreSQL CAST AS NUMERIC conversions. Added USE database directive.",
+  "updatedAt": "2026-07-30T06:53:25.911609400Z"
+}

@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
+
+# Power BI temp files
+*.pbix.temp
+*.pbit.temp
+
+# OS files
+.DS_Store
+Thumbs.db
