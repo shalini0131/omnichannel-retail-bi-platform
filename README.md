@@ -10,7 +10,7 @@ This project implements a Python ETL pipeline, a MySQL data warehouse (Star Sche
 
 ```mermaid
 graph TD
-    subgraph Raw Data Sources (Simulated Legacy CSVs)
+    subgraph "Raw Data Sources (Simulated Legacy CSVs)"
         A[UK Sales 2010]
         B[UK Sales 2011]
         C[North Europe Sales]
@@ -19,13 +19,13 @@ graph TD
         F[Rest of World Sales]
     end
 
-    subgraph Data Engineering Pipeline (etl.py)
+    subgraph "Data Engineering Pipeline (etl.py)"
         A & B & C & D & E & F --> G[Pandas Processing & Cleaning]
         G --> H[Guest Profile Mapping]
         H --> I[Dimensional Mapping & Splits]
     end
 
-    subgraph MySQL Data Warehouse (retail_dw)
+    subgraph "MySQL Data Warehouse (retail_dw)"
         I --> J[(dim_date)]
         I --> K[(dim_customers)]
         I --> L[(dim_products)]
@@ -78,7 +78,6 @@ Daily sales data had too much noise for a clear trend forecast, and monthly data
 ├── .gitignore
 ├── requirements.txt
 ├── README.md
-├── suggested_commit_history.md
 ├── data/
 │   ├── raw/                  # Downloaded raw Excel and split source CSVs
 │   └── processed/            # Cleaned global transaction file
