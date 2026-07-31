@@ -13,11 +13,11 @@ $$\text{Net Revenue} = \sum (\text{Line Total}) = \sum (\text{Quantity} \times \
 
 ### Gross Sales
 The total gross sales generated before return deductions are applied.
-$$\text{Gross Sales} = \sum (\text{Line Total}) \quad \text{where} \quad \text{is\_return} = \text{FALSE}$$
+$$\text{Gross Sales} = \sum (\text{Line Total}) \quad \text{where} \quad \text{isReturn} = \text{FALSE}$$
 
 ### Returns Value
 The total monetary volume of returns/refunds processed.
-$$\text{Returns Value} = \sum (\text{Line Total}) \quad \text{where} \quad \text{is\_return} = \text{TRUE}$$
+$$\text{Returns Value} = \sum (\text{Line Total}) \quad \text{where} \quad \text{isReturn} = \text{TRUE}$$
 
 ### Return Rate %
 Measures return volume relative to gross sales. High return rates signal quality issues or customer dissatisfaction.
@@ -38,7 +38,7 @@ $$\text{AOV} = \frac{\text{Gross Sales}}{\text{Unique Purchase Invoices}}$$
 
 ### Average Basket Size (Items per Basket)
 The average number of units checked out in a single invoice.
-$$\text{Average Basket Size} = \frac{\sum (\text{Quantity})}{\text{Unique Purchase Invoices}} \quad \text{where} \quad \text{is\_return} = \text{FALSE}$$
+$$\text{Average Basket Size} = \frac{\sum (\text{Quantity})}{\text{Unique Purchase Invoices}} \quad \text{where} \quad \text{isReturn} = \text{FALSE}$$
 
 ### Same-Store Sales Growth (SSSG) %
 Measures sales performance of established retail channels over a comparable historical timeline.
