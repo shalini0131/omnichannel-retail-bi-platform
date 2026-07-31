@@ -1,4 +1,0 @@
-{
-  "summary": "Python script to download the raw Online Retail II dataset from UCI and split it into 6 regional CSV files, simulating a multi-source legacy database environment.",
-  "updatedAt": "2026-07-29T14:25:11.257223600Z"
-}
