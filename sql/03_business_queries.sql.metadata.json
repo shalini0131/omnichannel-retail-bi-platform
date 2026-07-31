@@ -1,4 +1,0 @@
-{
-  "summary": "Updated business analytics queries to use standard MySQL syntax, removing unnecessary PostgreSQL-specific casts. Added USE database directive.",
-  "updatedAt": "2026-07-30T06:53:56.759200700Z"
-}

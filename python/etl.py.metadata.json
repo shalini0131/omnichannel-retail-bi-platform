@@ -1,4 +1,0 @@
-{
-  "summary": "Updated etl.py Python pipeline script to connect to MySQL database instead of PostgreSQL. Replaced psycopg2 bulk copy operations with an optimized MySQL connector batch execution strategy (executemany in chunks of 50,000 rows).",
-  "updatedAt": "2026-07-30T06:52:35.535810Z"
-}
