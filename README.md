@@ -112,7 +112,7 @@ Make sure you have installed:
 
 ### Step 1: Clone the Repository & Install Python Dependencies
 ```bash
-git clone https://github.com/yourusername/omnichannel-retail-bi.git
+git clone https://github.com/shalini0131/omnichannel-retail-bi.git
 cd omnichannel-retail-bi
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
